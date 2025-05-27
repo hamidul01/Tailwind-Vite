@@ -1,8 +1,4 @@
-/* export default {
-  root: '.',
-  server: {
-    fs: {
-      allow: ['.'],
-    },
-  },
-} */
+import { defineConfig } from 'vite'
+export default defineConfig({
+  base: '/Tailwind-Vite/',
+});
